@@ -1,59 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Joseph Jubata Kadiaman, S.H., M.H.(Mil)</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <style>
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    max-width: 760px;
-    margin: 100px auto;
-    line-height: 1.8;
-    padding: 0 24px;
-    color: #1a1a1a;
-    background-color: #ffffff;
-}
+    <title>KADIAMAN | Law & Strategy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        :root { --navy: #0B1C2D; --gold: #8C6A2F; --paper: #F4F4F2; --white: #FFFFFF; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: var(--navy); color: var(--paper); font-family: 'Montserrat', sans-serif; line-height: 1.6; }
+        h1, h2, h3, .brand { font-family: 'Cinzel', serif; text-transform: uppercase; letter-spacing: 0.15em; }
+        
+        nav { padding: 1.5rem 8%; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(140, 106, 47, 0.2); background: var(--navy); }
+        .logo-svg { width: 40px; height: 40px; vertical-align: middle; margin-right: 15px; }
+        .brand { font-size: 1.1rem; color: var(--paper); font-weight: 700; display: flex; align-items: center; }
+        .brand span { color: var(--gold); font-weight: 400; margin-left: 8px; }
 
-h1 {
-    font-size: 34px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
+        .hero { height: 70vh; display: flex; align-items: center; padding: 0 10%; background: linear-gradient(rgba(11, 28, 45, 0.85), rgba(11, 28, 45, 0.85)), url('https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&q=80&w=2000'); background-size: cover; background-position: center; border-bottom: 2px solid var(--gold); }
+        .hero-content { max-width: 800px; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 1.5rem; color: var(--white); line-height: 1.2; }
+        .hero p { font-size: 1rem; color: var(--gold); letter-spacing: 0.05em; border-left: 2px solid var(--gold); padding-left: 20px; }
 
-h2 {
-    margin-top: 48px;
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #555;
-}
-</style>
+        .services { display: grid; grid-template-columns: repeat(3, 1fr); background: var(--paper); color: var(--navy); }
+        .service-card { padding: 4rem 10%; border-right: 1px solid rgba(11, 28, 45, 0.1); }
+        .service-card h3 { margin-bottom: 1rem; font-size: 0.9rem; color: var(--gold); border-bottom: 1px solid var(--gold); display: inline-block; padding-bottom: 5px; }
+        .service-card p { font-size: 0.85rem; }
+
+        footer { padding: 6rem 10%; text-align: center; background: var(--navy); border-top: 1px solid rgba(140, 106, 47, 0.2); }
+        .footer-logo { width: 80px; height: 80px; margin-bottom: 2rem; opacity: 0.7; }
+        .contact-info { display: flex; justify-content: center; gap: 3rem; margin-top: 3rem; font-size: 0.75rem; letter-spacing: 0.2em; color: var(--gold); }
+        a { color: var(--paper); text-decoration: none; transition: 0.3s; }
+        a:hover { color: var(--gold); }
+
+        @media (max-width: 768px) { .services { grid-template-columns: 1fr; } .hero h1 { font-size: 2rem; } .contact-info { flex-direction: column; gap: 1rem; } }
+    </style>
 </head>
 <body>
 
-<h1>Joseph Jubata Kadiaman</h1>
+    <nav>
+        <div class="brand">
+            <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="46" stroke="#8C6A2F" stroke-width="2"/>
+                <path d="M50 20C66.5 20 80 33.5 80 50C80 66.5 66.5 80 50 80C33.5 80 20 66.5 20 50C20 38 28 28 40 25M50 35C58 35 65 41.5 65 50C65 58.5 58 65 50 65C42 65 35 58.5 35 50C35 46 38 42 42 41M50 45C52.7 45 55 47.3 55 50" stroke="#8C6A2F" stroke-width="3" stroke-linecap="square"/>
+                <rect x="49" y="8" width="2" height="8" fill="#8C6A2F"/><rect x="49" y="84" width="2" height="8" fill="#8C6A2F"/>
+                <rect x="8" y="49" width="8" height="2" fill="#8C6A2F"/><rect x="84" y="49" width="8" height="2" fill="#8C6A2F"/>
+            </svg>
+            KADIAMAN <span>LAW & STRATEGY</span>
+        </div>
+    </nav>
 
-<p>
-Military Law scholar with professional engagement in operational law, governance, and institutional development.
-</p>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>UNCOMPROMISING STRATEGY.<br>DISCREET ADVISORY.</h1>
+            <p>Sovereign Risk Management & High-Stakes Litigation Counsel.</p>
+        </div>
+    </section>
 
-<h2>Professional Profile</h2>
-<p>
-Engaged in the study and practice of military legal frameworks, with interest in law of armed conflict, institutional governance, and strategic policy development.
-</p>
+    <section class="services">
+        <div class="service-card">
+            <h3>Strategic Counsel</h3>
+            <p>Executive-level defense and governance advisory in high-risk environments.</p>
+        </div>
+        <div class="service-card">
+            <h3>Dispute Resolution</h3>
+            <p>Sophisticated mediation and strategic negotiation for institutional interests.</p>
+        </div>
+        <div class="service-card">
+            <h3>Global Defense</h3>
+            <p>Advancing client interests across borders with disciplined legal intelligence.</p>
+        </div>
+    </section>
 
-<h2>Education</h2>
-<p>
-Magister Program in Military Law
-</p>
-
-<h2>Contact</h2>
-<p>
-Email: jubata@kadiaman.com
-</p>
+    <footer>
+        <svg class="footer-logo" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="46" stroke="#8C6A2F" stroke-width="1.5"/>
+            <path d="M50 20C66.5 20 80 33.5 80 50C80 66.5 66.5 80 50 80C33.5 80 20 66.5 20 50" stroke="#8C6A2F" stroke-width="2"/>
+        </svg>
+        <div class="brand" style="justify-content: center;">KADIAMAN</div>
+        <div class="contact-info">
+            <div>EST. 2026</div>
+            <div><a href="mailto:office@kadiaman.com">OFFICE@KADIAMAN.COM</a></div>
+            <div>GLOBAL OPERATIONS</div>
+        </div>
+    </footer>
 
 </body>
-
 </html>
-
