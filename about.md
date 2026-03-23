@@ -10,8 +10,9 @@ permalink: /about/
   .role-title { color: #c6a052; font-family: monospace; font-size: 1.1rem; font-weight: bold; text-transform: uppercase; }
   .bio-text { line-height: 1.8; font-size: 1.1rem; text-align: justify; }
   .specialization-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 30px; }
-  .spec-item { background: #161b22; padding: 15px; border: 1px solid #30363d; }
-  .spec-item strong { color: #c6a052; display: block; margin-bottom: 5px; }
+  .spec-item { background: #161b22; padding: 15px; border: 1px solid #30363d; border-radius: 4px; }
+  .spec-item strong { color: #c6a052; display: block; margin-bottom: 5px; font-size: 1.1rem;}
+  .spec-item p { margin: 0; font-size: 0.95rem; line-height: 1.6; }
 </style>
 
 # Joseph J. Kadiaman
@@ -21,38 +22,38 @@ permalink: /about/
   
   <div class="bio-text">
     <p>
-      In an era of shifting global alliances and evolving domestic legal frameworks, the intersection of law and strategy is where sovereignty is secured. As a Strategic Advisor, I focus on the critical analysis of <strong>Military Law (LOAC)</strong>, <strong>Criminal Justice Reform</strong>, and <strong>Geopolitical Risk</strong>.
+      In a volatile global landscape, the intersection of law and strategy is where sovereignty is secured and risk is managed. As a Strategic Advisor, I focus on the critical analysis of <strong>Military Law (LOAC/IHL)</strong>, <strong>International Trade Law</strong>, and <strong>Indonesian Legal Reform</strong>.
     </p>
     <p>
-      My work bridges the gap between academic legal theory and practical strategic application. I provide insights for institutional leaders and organizations navigating the complexities of the new Indonesian Criminal Code (KUHP), defense procurement regulations, and the legal dimensions of national security.
+      My work bridges the gap between complex legal theory and practical strategic application. I provide actionable insights for institutional leaders and organizations navigating the complexities of the new Indonesian Criminal Code (KUHP), defense procurement regulations, and the legal dimensions of national security amidst shifting geopolitical power dynamics.
     </p>
   </div>
 </div>
 
-### Areas of Expertise
+### Core Strategic Focus Areas
 
 <div class="specialization-grid">
   <div class="spec-item">
     <strong>International Humanitarian Law</strong>
-    Analyzing the Law of Armed Conflict (LOAC) and its application in modern defense strategies.
+    <p>Analyzing the Law of Armed Conflict (LOAC/IHL) and its implications for modern defense strategies and national sovereignty.</p>
   </div>
   <div class="spec-item">
     <strong>Indonesian Legal Reform</strong>
-    Specializing in the transition toward restorative justice and modern penal systems.
+    <p>Specializing in the transition toward restorative justice, modern penal systems (KUHP), and domestic rule of law.</p>
   </div>
   <div class="spec-item">
-    <strong>Institutional Resilience</strong>
-    Designing legal frameworks that allow organizations to withstand geopolitical volatility.
+    <strong>Geopolitical Risk & Resilience</strong>
+    <p>Mapping the impact of global power dynamics on domestic legal systems, defense policies, and institutional stability.</p>
   </div>
   <div class="spec-item">
-    <strong>Geopolitical Analysis</strong>
-    Mapping the impact of global power dynamics on domestic legal and defense policies.
+    <strong>International Trade Law</strong>
+    <p>Assessing the impact of foreign judicial rulings (e.g., US SCOTUS) and trade policies on bilateral tariff structures and export volatility.</p>
   </div>
 </div>
 
 ---
 
 ### Professional Engagement
-I am available for tactical briefings, legal-strategic consulting, and collaborative research. 
+I am available for tactical briefings, legal-strategic consulting, and collaborative research initiatives.
 
-[**Contact the Command Center**](tel:+6287875618777) | [**View Intelligence Archive**](/archive/)
+[**Contact the Command Center**](tel:+6287875618777) | [**Access Intelligence Archive**](/archive/)
