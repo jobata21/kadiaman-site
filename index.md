@@ -6,11 +6,12 @@ title: Home
 <style>
   body { background-color: #0d1117 !important; color: #c9d1d9 !important; font-family: 'Georgia', serif !important; }
   .site-header { background-color: #161b22 !important; border-bottom: 2px solid #c6a052 !important; border-top: 4px solid #c6a052 !important; }
-  .site-title, .site-nav .page-link { color: #c6a052 !important; text-transform: uppercase !important; letter-spacing: 2px !important; }
+  .site-title, .site-nav { color: #c6a052 !important; text-transform: uppercase !important; letter-spacing: 2px !important; }
   .wrapper { max-width: 800px !important; }
   a { color: #c6a052 !important; text-decoration: underline !important; }
   .post-link { color: #c6a052 !important; }
-  .site-footer { background-color: #161b22 !important; border-top: 1px solid #30363d !important; }
+  .site-footer { background-color: #161b22 !important; border-top: 1px solid #30363d !important; padding: 20px 0 !important; }
+  .contact-box { border: 1px solid #30363d; padding: 20px; background: #161b22; margin-top: 40px; border-left: 4px solid #c6a052; }
 </style>
 
 <div style="text-align: right; color: #c6a052; font-family: monospace; font-size: 0.8rem;">
@@ -28,6 +29,14 @@ In a fragmented global landscape, law is not a mere administrative procedure; it
 * **Sovereignty & Defense:** Navigating the Law of Armed Conflict (LOAC).
 * **Institutional Power Dynamics:** Structural forces and legal frameworks.
 * **Strategic Governance:** Systems that withstand geopolitical volatility.
+
+---
+
+<div class="contact-box">
+  <h4 style="color: #c6a052; margin-top: 0;">STRATEGIC COMMUNICATION</h4>
+  <p style="margin-bottom: 5px;">Direct Line: <strong><a href="tel:+6287875618777" style="color: #fff !important;">+62 878 7561 8777</a></strong></p>
+  <p style="font-size: 0.85rem; color: #8b949e;"><em>Available for tactical briefing and legal-strategic consultation.</em></p>
+</div>
 
 ---
 
