@@ -3,6 +3,16 @@ layout: home
 title: Home
 ---
 
+<style>
+  body { background-color: #0d1117 !important; color: #c9d1d9 !important; font-family: 'Georgia', serif !important; }
+  .site-header { background-color: #161b22 !important; border-bottom: 2px solid #c6a052 !important; border-top: 4px solid #c6a052 !important; }
+  .site-title, .site-nav .page-link { color: #c6a052 !important; text-transform: uppercase !important; letter-spacing: 2px !important; }
+  .wrapper { max-width: 800px !important; }
+  a { color: #c6a052 !important; text-decoration: underline !important; }
+  .post-link { color: #c6a052 !important; }
+  .site-footer { background-color: #161b22 !important; border-top: 1px solid #30363d !important; }
+</style>
+
 <div style="text-align: right; color: #c6a052; font-family: monospace; font-size: 0.8rem;">
   CLASSIFICATION: STRATEGIC INTEL // UNRESTRICTED ACCESS
 </div>
@@ -15,9 +25,9 @@ In a fragmented global landscape, law is not a mere administrative procedure; it
 
 ### Core Strategic Pillars
 
-* **Sovereignty & Defense:** Navigating the Law of Armed Conflict (LOAC) to protect national and corporate interests.
-* **Institutional Power Dynamics:** Analyzing the structural forces and legal frameworks that define institutional authority.
-* **Strategic Governance:** Beyond compliance—building systems that withstand geopolitical and social volatility.
+* **Sovereignty & Defense:** Navigating the Law of Armed Conflict (LOAC).
+* **Institutional Power Dynamics:** Structural forces and legal frameworks.
+* **Strategic Governance:** Systems that withstand geopolitical volatility.
 
 ---
 
