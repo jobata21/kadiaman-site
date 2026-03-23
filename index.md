@@ -7,3 +7,4 @@
     INTEL: UNRESTRICTED ACCESS
   </div>
 </div>
+<img src="/assets/images/logo.png" alt="Kadiaman Strategic Logo" class="site-logo">
