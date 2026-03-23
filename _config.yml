@@ -1,0 +1,20 @@
+title: Kadiaman Strategic Advisor
+email: jubata@kadiaman.com
+description: >-
+  High-Level Advisor in Military Law (LOAC), Geopolitical Strategy, 
+  and Institutional Power Dynamics. Law is a Strategic Asset.
+baseurl: "" 
+url: "https://kadiaman.com"
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+# High-Level Taxonomy
+categories: [Sovereignty, Institutional-Power, Strategic-Governance]
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - strategy.md
