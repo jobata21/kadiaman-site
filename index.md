@@ -9,6 +9,17 @@ title: Home
   .site-title, .site-nav { color: #c6a052 !important; text-transform: uppercase !important; letter-spacing: 2px !important; }
   .wrapper { max-width: 800px !important; }
   a { color: #c6a052 !important; text-decoration: underline !important; }
+  
+  /* Insights List Styling */
+  .insight-card { margin-bottom: 20px; border-left: 4px solid #c6a052; padding: 15px 20px; background: #161b22; transition: 0.3s; }
+  .insight-card:hover { border-left: 4px solid #fff; background: #1c2128; }
+  
+  /* Strategic Specializations Footer */
+  .spec-footer { margin-top: 60px; padding: 30px 0; border-top: 1px solid #30363d; background: #0d1117; }
+  .spec-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .spec-box { font-size: 0.85rem; color: #8b949e; line-height: 1.5; }
+  .spec-box strong { color: #c6a052; display: block; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px; }
+  
   .contact-box { border: 1px solid #30363d; padding: 20px; background: #161b22; margin-top: 40px; border-left: 4px solid #c6a052; }
 </style>
 
@@ -22,26 +33,21 @@ In a fragmented global landscape, law is not a mere administrative procedure; it
 
 **Kadiaman Strategic Advisor** provides deep-dive analysis at the intersection of Military Law (LOAC/IHL), Geopolitical Risk, and Institutional Resilience.
 
-### Core Strategic Pillars
-
-* **Sovereignty & Defense:** Navigating the Law of Armed Conflict (LOAC).
-* **Institutional Power Dynamics:** Structural forces and legal frameworks.
-* **Strategic Governance:** Systems designed to withstand geopolitical volatility.
-
 ---
 
 ### Latest Strategic Insights
 
 {% for post in site.posts limit:3 %}
-  <div style="margin-bottom: 20px; border-left: 4px solid #c6a052; padding: 10px 20px; background: #161b22;">
-    <span style="font-size: 0.8rem; color: #8b949e; font-family: monospace;">PUBLISHED: {{ post.date | date: "%Y-%m-%d" }}</span><br>
+  <div class="insight-card">
+    <span style="font-size: 0.8rem; color: #8b949e; font-family: monospace;">ANALYSIS: {{ post.date | date: "%Y-%m-%d" }}</span><br>
     <a href="{{ post.url }}" style="font-weight: bold; font-size: 1.2rem; text-decoration: none;">{{ post.title }}</a>
-    <p style="font-size: 0.9rem; margin-top: 5px; color: #c9d1d9;">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+    <p style="font-size: 0.9rem; margin-top: 5px; color: #c9d1d9;">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
   </div>
 {% endfor %}
 
-<br>
-[**Access Full Intelligence Archive →**](/archive/)
+<div style="text-align: center; margin-top: 20px;">
+  [**Access Full Intelligence Archive →**](/archive/)
+</div>
 
 ---
 
@@ -49,4 +55,22 @@ In a fragmented global landscape, law is not a mere administrative procedure; it
   <h4 style="color: #c6a052; margin-top: 0;">STRATEGIC COMMUNICATION</h4>
   <p style="margin-bottom: 5px;">Direct Line: <strong><a href="tel:+6287875618777" style="color: #fff !important;">+62 878 7561 8777</a></strong></p>
   <p style="font-size: 0.85rem; color: #8b949e;"><em>Available for tactical briefing and legal-strategic consultation.</em></p>
+</div>
+
+<div class="spec-footer">
+  <h5 style="color: #fff; text-align: center; margin-bottom: 25px;">CORE STRATEGIC SPECIALIZATIONS</h5>
+  <div class="spec-grid">
+    <div class="spec-box">
+      <strong>Geopolitical Risk</strong>
+      Mapping global power shifts and their impact on regional stability and trade routes.
+    </div>
+    <div class="spec-box">
+      <strong>Military Law (LOAC)</strong>
+      Expertise in the Law of Armed Conflict and International Humanitarian Law (IHL).
+    </div>
+    <div class="spec-box">
+      <strong>Rule of Law</strong>
+      Navigating Indonesia’s modern legal reform and institutional resilience frameworks.
+    </div>
+  </div>
 </div>
