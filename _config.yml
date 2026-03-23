@@ -1,17 +1,20 @@
 # --- Kadiaman Strategic Advisor | Global Configuration ---
 
-# Site Settings
+# Site Identity
 title: Kadiaman Strategic Advisor
 email: jubata@kadiaman.com
-description: >- # This appears in Google search results
+description: >-
   Strategic analysis at the intersection of Military Law, 
   Geopolitical Risk, and Institutional Resilience.
-baseurl: "" # Leave empty for root domain kadiaman.com
+baseurl: "" 
 url: "https://kadiaman.com"
 lang: en-US
 
+# Brand Assets
+# Ensure your file is at: /assets/images/logo.png
+logo: "/assets/images/logo.png"
+
 # Social & Contact Branding
-twitter_username: # Add if you have one
 github_username: jobata21
 author: Joseph J. Kadiaman
 
@@ -21,16 +24,17 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Navigation (This creates the menu at the top)
+# Navigation Menu
+# This controls the links at the top right of your site
 header_pages:
   - about.md
   - archive.md
 
-# Markdown Settings
+# Markdown & Syntax Highlighting
 markdown: kramdown
 highlighter: rouge
 
-# Exclude these files from the live site build
+# Exclusions
 exclude:
   - Gemfile
   - Gemfile.lock
