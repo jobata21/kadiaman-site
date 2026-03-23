@@ -15,7 +15,7 @@ permalink: /about/
   .spec-item p { margin: 0; font-size: 0.95rem; line-height: 1.6; }
 </style>
 
-# Joseph J. Kadiaman
+# Joseph Jubata Kadiaman, S.H., M.H.(Mil)
 
 <div class="profile-container">
   <div class="role-title">Strategic Advisor | Legal Analyst | Defense Consultant</div>
