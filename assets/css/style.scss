@@ -3,16 +3,16 @@
 @import "minima";
 
 // --- Kadiaman Strategic Branding ---
-$dark-bg: #0d1117;        // Hitam Navy (Deep Authority)
-$panel-bg: #161b22;       // Abu-abu Gelap (Tactical)
-$accent-gold: #c6a052;    // Emas Redup (Sovereign Gold)
-$text-main: #c9d1d9;      // Putih Tulisan
-$border-color: #30363d;   // Border Halus
+$dark-bg: #0d1117;
+$panel-bg: #161b22;
+$accent-gold: #c6a052;
+$text-main: #c9d1d9;
+$border-color: #30363d;
 
 body {
   background-color: $dark-bg !important;
   color: $text-main !important;
-  font-family: 'Georgia', serif !important; // Kesan Hukum & Akademis
+  font-family: 'Georgia', serif !important;
 }
 
 .site-header {
@@ -51,7 +51,6 @@ footer {
   padding: 40px 0 !important;
 }
 
-// Mengubah link agar tidak berwarna biru standar
 a {
   color: $accent-gold !important;
   text-decoration: underline !important;
