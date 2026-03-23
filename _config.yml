@@ -1,20 +1,41 @@
+# --- Kadiaman Strategic Advisor | Global Configuration ---
+
+# Site Settings
 title: Kadiaman Strategic Advisor
 email: jubata@kadiaman.com
-description: >-
-  High-Level Advisor in Military Law (LOAC), Geopolitical Strategy, 
-  and Institutional Power Dynamics. Law is a Strategic Asset.
-baseurl: "" 
+description: >- # This appears in Google search results
+  Strategic analysis at the intersection of Military Law, 
+  Geopolitical Risk, and Institutional Resilience.
+baseurl: "" # Leave empty for root domain kadiaman.com
 url: "https://kadiaman.com"
+lang: en-US
 
+# Social & Contact Branding
+twitter_username: # Add if you have one
+github_username: jobata21
+author: Joseph J. Kadiaman
+
+# Build Settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
-# High-Level Taxonomy
-categories: [Sovereignty, Institutional-Power, Strategic-Governance]
-
-# Navigation
+# Navigation (This creates the menu at the top)
 header_pages:
-  - index.md
   - about.md
-  - strategy.md
+  - archive.md
+
+# Markdown Settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude these files from the live site build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
