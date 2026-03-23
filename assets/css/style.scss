@@ -1,0 +1,63 @@
+---
+# Front matter ini wajib agar Jekyll memproses SCSS menjadi CSS
+---
+@import "minima";
+
+// --- Kadiaman Strategic Branding ---
+$dark-bg: #0d1117;        // Hitam Navy (Deep Authority)
+$panel-bg: #161b22;       // Abu-abu Gelap (Tactical)
+$accent-gold: #c6a052;    // Emas Redup (Sovereign Gold)
+$text-main: #c9d1d9;      // Putih Tulisan
+$border-color: #30363d;   // Border Halus
+
+body {
+  background-color: $dark-bg !important;
+  color: $text-main !important;
+  font-family: 'Georgia', serif !important; // Kesan Hukum & Akademis
+}
+
+.site-header {
+  background-color: $panel-bg !important;
+  border-bottom: 2px solid $accent-gold !important;
+  border-top: 4px solid $accent-gold !important;
+}
+
+.site-title, .site-nav .page-link {
+  color: $accent-gold !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  font-weight: bold !important;
+}
+
+.post-link {
+  color: $accent-gold !important;
+  font-size: 1.5rem !important;
+}
+
+.wrapper {
+  max-width: 800px !important;
+}
+
+blockquote {
+  background-color: $panel-bg !important;
+  border-left: 5px solid $accent-gold !important;
+  padding: 20px !important;
+  color: #fff !important;
+  font-style: italic !important;
+}
+
+footer {
+  background-color: $panel-bg !important;
+  border-top: 1px solid $border-color !important;
+  padding: 40px 0 !important;
+}
+
+// Mengubah link agar tidak berwarna biru standar
+a {
+  color: $accent-gold !important;
+  text-decoration: underline !important;
+}
+
+a:hover {
+  color: #fff !important;
+}
