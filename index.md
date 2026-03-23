@@ -13,6 +13,7 @@ title: Home
   /* Insights List Styling */
   .insight-card { margin-bottom: 20px; border-left: 4px solid #c6a052; padding: 15px 20px; background: #161b22; transition: 0.3s; }
   .insight-card:hover { border-left: 4px solid #fff; background: #1c2128; }
+  .badge { font-size: 0.7rem; color: #c6a052; font-family: monospace; border: 1px solid #c6a052; padding: 2px 6px; text-transform: uppercase; border-radius: 2px; display: inline-block; margin-bottom: 8px; }
   
   /* Strategic Specializations Footer */
   .spec-footer { margin-top: 60px; padding: 30px 0; border-top: 1px solid #30363d; background: #0d1117; }
@@ -35,12 +36,15 @@ In a fragmented global landscape, law is not a mere administrative procedure; it
 
 ---
 
-### Latest Strategic Insights
+### Latest Strategic & Academic Insights
 
-{% for post in site.posts limit:3 %}
+{% for post in site.posts limit:5 %}
   <div class="insight-card">
-    <span style="font-size: 0.8rem; color: #8b949e; font-family: monospace;">ANALYSIS: {{ post.date | date: "%Y-%m-%d" }}</span><br>
-    <a href="{{ post.url }}" style="font-weight: bold; font-size: 1.2rem; text-decoration: none;">{{ post.title }}</a>
+    <div class="badge">
+      {% if post.categories contains 'Academic-Journal' %}PEER-REVIEWED{% else %}STRATEGIC BRIEF{% endif %}
+    </div>
+    <span style="font-size: 0.8rem; color: #8b949e; font-family: monospace; margin-left: 10px;">{{ post.date | date: "%Y-%m-%d" }}</span><br>
+    <a href="{{ post.url }}" style="font-weight: bold; font-size: 1.25rem; text-decoration: none; display: block; margin-top: 5px;">{{ post.title }}</a>
     <p style="font-size: 0.9rem; margin-top: 5px; color: #c9d1d9;">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
   </div>
 {% endfor %}
